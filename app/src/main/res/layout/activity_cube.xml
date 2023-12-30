@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#020929"
+    tools:context=".CubeActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Cube \n"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:layout_margin="5dp"
+        android:text="1.A cube has 12 edges, 6 faces, and 8 vertices.\n\n2. All the faces of a cube are shaped as a square hence the length, breadth, and height are the same.\n\n3. The angles between any two faces or surfaces are 90°. \n\n4.The opposite planes or faces in a cube are parallel to each other.\n\n5.Volume of cube=side*side*side\n\n6.surface Area=6*side*side\n\n"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/btn1"
+        android:text="Calculate"
+        android:textSize="20sp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/btn2"
+        android:text="Visualize"
+        android:layout_marginTop="30sp"
+        android:textSize="20sp" />
+</LinearLayout>

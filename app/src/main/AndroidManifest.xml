@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Geometricshapes"
+        tools:targetApi="31">
+        <activity
+            android:name=".CalTriangleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".equiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".scalenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".rightActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sphereActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RhombusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CylinderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".coneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TrapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TriangleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ParaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CuboidActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CubeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IsoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SquareActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RectangleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".circleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".standard10Activity"
+            android:exported="false" />
+        <activity
+            android:name=".standard9Activity"
+            android:exported="false" />
+        <activity
+            android:name=".standard8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".standard7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".standard6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".standard5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".class_selectActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

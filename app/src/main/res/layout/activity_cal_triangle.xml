@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#020929"
+    tools:context=".CalTriangleActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="\nTriangle  Calculation\n"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10sp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/t2"
+        android:fontFamily="sans-serif"
+        android:layout_margin="5dp"
+        android:text="Base: \n"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/b"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="10sp"
+            android:hint="Base"
+            android:inputType="numberDecimal"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/t3"
+            android:fontFamily="sans-serif"
+            android:layout_margin="5dp"
+            android:text="Height: \n"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/h"
+            android:layout_width="60dp"
+            android:layout_height="48dp"
+            android:layout_margin="10sp"
+            android:inputType="numberDecimal"
+            android:textColor="@color/white"
+            android:hint="height"
+            android:textColorHint="@color/white"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:fontFamily="sans-serif"
+        android:layout_gravity="center"
+        android:text="Area=0.5×height×base\n"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/btn1"
+        android:text="Calculate"
+        android:textSize="20sp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/b2"
+        android:text="reset"
+        android:textSize="20sp"
+        android:visibility="invisible"/>
+
+</LinearLayout>
