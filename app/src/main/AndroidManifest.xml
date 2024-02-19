@@ -12,6 +12,9 @@
         android:theme="@style/Theme.Geometricshapes"
         tools:targetApi="31">
         <activity
+            android:name=".CalSquareActivity"
+            android:exported="false" />
+        <activity
             android:name=".CalTriangleActivity"
             android:exported="false" />
         <activity
